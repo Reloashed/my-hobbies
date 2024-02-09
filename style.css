@@ -222,6 +222,21 @@ main .grid-container {
     transform: scale(1.1);
 }
 
+.fpv-video {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.fpv-video video {
+    border-radius: 1rem;
+    transition: 1s;
+}
+
+.fpv-video video:hover{
+    transform: scale(1.1);
+}
+
 footer {
     display: flex;
     justify-content: space-around;
