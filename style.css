@@ -176,11 +176,50 @@ textarea:valid {
     padding: 3rem;
 }
 
-.grid-container {
+.aboutMe .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     gap: 1.5rem;
+}
+
+.parkour-description {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    text-align: justify;
+}
+
+.parkour-description div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.grid-container .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item video {
+    width: 75%;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1rem black;
+    transition: 1s;
+}
+
+.grid-item video:hover {
+    transform: scale(1.1);
 }
 
 footer {
